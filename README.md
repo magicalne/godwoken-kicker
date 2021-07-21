@@ -2,7 +2,7 @@
 
 one line command to start godwoken-polyjuice chain for devnet.
 
-`note: this branch is used as rc test for mainet version.`
+`branch for refacotr interoperability. signing method change to message personal sign.`
 
 ----
 

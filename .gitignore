@@ -28,3 +28,6 @@ workspace/*
 !workspace/.gitkeep
 cache/activity/*
 cache/build/*
+
+target/
+build/

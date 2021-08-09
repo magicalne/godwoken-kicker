@@ -1,0 +1,48 @@
+[[packages_info]]
+repo_name = 'godwoken'
+repo_url = 'https://github.com/nervosnetwork/godwoken.git#v0.6.0-rc4'
+build_mode = false
+
+[[packages_info]]
+repo_name = 'godwoken-polyman'
+repo_url = 'https://github.com/RetricSu/godwoken-polyman.git#v0.6.0-rc2'
+build_mode = false
+
+[[packages_info]]
+repo_name = 'godwoken-web3'
+repo_url = 'https://github.com/nervosnetwork/godwoken-web3.git#v0.5.0-rc2'
+build_mode = false
+
+[[packages_info]]
+repo_name = 'godwoken-scripts'
+repo_url = 'https://github.com/nervosnetwork/godwoken-scripts.git#v0.8.0-rc2'
+build_mode = false
+
+[[packages_info]]
+repo_name = 'godwoken-polyjuice'
+repo_url = 'https://github.com/nervosnetwork/godwoken-polyjuice.git#v0.8.2-rc1'
+build_mode = false
+
+[[packages_info]]
+repo_name = 'clerkb'
+repo_url = 'https://github.com/nervosnetwork/clerkb.git#v0.4.0'
+build_mode = false
+
+[[images_info]]
+id = 'docker_prebuild_image'
+image_name = 'nervos/godwoken-prebuilds'
+image_tag = 'v0.6.0-rc2'
+
+[[images_info]]
+id = 'docker_manual_build_image'
+image_name = 'retricsu/godwoken-manual-build'
+image_tag = 'latest'
+
+[[images_info]]
+id = 'docker_js_prebuild_image'
+image_name = 'nervos/godwoken-js-prebuilds'
+image_tag = 'v0.6.0-rc2'
+
+[system]
+always_fetch_new_package = false
+build_godwoken_over_docker = false

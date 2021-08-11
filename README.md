@@ -12,17 +12,26 @@ one line command to start godwoken-polyjuice chain for devnet.
 
 ## How to run
 
-```md
-## quick-mode
+### 1. quick-mode
 
 run all componets from prebuild docker images, 
 fast and simple
 
-## custom-mode
+requirements:
+
+- [docker-compose](https://docs.docker.com/compose/)
+
+### 2. custom-mode
 
 run all componets building from local packages,
 more flexible, for more custom needs
-```
+
+requirements:
+
+- [docker-compose](https://docs.docker.com/compose/)
+- [moleculec](https://github.com/nervosnetwork/molecule) 0.6.1 (cargo install moleculec)
+- nodejs 14 && yarn ([how to install](https://yarnpkg.com/lang/en/docs/install/))
+- [capsule](https://github.com/nervosnetwork/capsule) 0.4.6 (cargo install capsule)
 
 command to start everything:
 

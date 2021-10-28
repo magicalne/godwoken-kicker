@@ -23,6 +23,7 @@ fi
 cp /code/workspace/deploy/lumos-config.json packages/runner/configs/lumos-config.json && echo 'cp lumos-config from workspace' || echo 'lumos-config.json not found. use brand new one.';
 
 yarn init_placeholder_config
+yarn prepare-sudt
 
 # start the callPolyman preparation http server in background
 yarn workspace @godwoken-polyman/runner start-call-polyman
